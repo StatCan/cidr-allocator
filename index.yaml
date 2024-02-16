@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  cidr-allocator:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2024-02-16T13:29:16.926142008Z"
+    description: A Helm chart to deploy the STATCAN CIDR-Allocator Controller and
+      CRDs to a Kubernetes Cluster
+    digest: 4c8edf5bac9588d5df199e7d44447e531d14c2172e61fd10fa9ca79f0589f787
+    home: https://statcan.gc.ca
+    keywords:
+    - Kubernetes
+    - Networking
+    - Node
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - email: ben.sykes@statcan.gc.ca
+      name: Ben Sykes
+    name: cidr-allocator
+    sources:
+    - https://github.com/StatCan/cidr-allocator
+    type: application
+    urls:
+    - https://github.com/StatCan/cidr-allocator/releases/download/cidr-allocator-2.0.0/cidr-allocator-2.0.0.tgz
+    version: 2.0.0
+generated: "2024-02-16T13:29:16.926152878Z"
