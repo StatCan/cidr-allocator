@@ -1,4 +1,5 @@
 {{ range .Values.nodeCIDRAllocations }}
+---
 apiVersion: networking.statcan.gc.ca/v1alpha1
 kind: NodeCIDRAllocation
 metadata:

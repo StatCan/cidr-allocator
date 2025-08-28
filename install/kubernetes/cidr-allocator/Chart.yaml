@@ -10,7 +10,7 @@ keywords:
   - Networking
   - Node
 
-version: 2.1.1
+version: 2.1.2
 kubeVersion: ">= 1.16.0-0"
 appVersion: "v1.4.2"
 
